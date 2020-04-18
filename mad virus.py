@@ -181,11 +181,9 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-    else:
+            os.system('xdg-open https://www.youtube.com/channel/UCg2gKXEomMQpFkIeM3d47VQ')    else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-
+        os.system('xdg-open https://www.youtube.com/channel/UCg2gKXEomMQpFkIeM3d47VQ')
 def login():
 	os.system('clear')
 	try:
@@ -194,8 +192,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;93mWarning: \033[1;96mDo Not Use Your Personal Account' )
-		jalan(' \033[1;93mWarning: \033[1;96mUse a New Account To Login' )
+		jalan(' \033[1;93mWarning: \033[1;96mDo Use Your New  Account' )
+		jalan(' \033[1;93mWarning: \033[1;96mUse a welcome' )
 		jalan(' \033[1;93mWarning: \033[1;96mTermux  All version Work✅' )                 
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mmad-virus\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		print('	   \033[1;97m▬\x1b[1;94m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
@@ -482,8 +480,8 @@ def pilih_super():
 	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mmad-virus\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;93m«---•◈•---Developed By mad-virus--•◈•---»" #Dev:mad-virus-hacker
-	print '\033[1;96m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 SpiderMan.py)↩\033[1;97m....'
+	print "  \033[1;93m«---•◈•---Developed By mad-virus--•◈•---»" #Dev:mad-virus
+	print '\033[1;96m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 virus.py)↩\033[1;97m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;93m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
                          ¸,.-~·¹´¨¨¨¨¨¨¨¨¨¨¨¨¨¨`²·~-.,¸        
@@ -503,7 +501,7 @@ def pilih_super():
                           `·.,¸    ¸,.-.     .·´ 
                              ·;~-.¸     ¸,.;´
       
-                       Checkpoint ID Open After 7 Days
+                       Checkpoint ID Open After 7day 
 
 •\033[1;93m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
 : \033[1;96m ....mad .virus...... \033[1;93m :
